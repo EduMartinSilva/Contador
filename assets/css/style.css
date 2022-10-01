@@ -1,0 +1,55 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+body h1{
+    text-align: center;
+    font-size: large;
+    font-family: Sans-serif;
+}
+
+.counter{
+    margin-top: 5%;
+    text-align: center;
+    position: relative
+}
+
+.counter span{
+    font-size:430px;    
+    font-family: Sans-serif;
+}
+
+.counter button{
+    position: absolute;
+}
+
+.counter .mais{
+    background-color: #4229b5;
+    border-radius: 50%;
+    padding: 22px 29px;
+    font-size: 30px;
+    top: 50%;
+    right: 10%;
+}
+
+.counter .mais:hover{
+    background-color: #4c35b3;
+    border: solid 2px;
+    border-color: #5642b0;
+}
+
+.counter .menos{
+    background-color: #4229b5;
+    border-radius: 50%;
+    padding: 22px 29px;
+    font-size: 30px;
+    top: 50%;
+    left: 10%;
+}
+
+.counter .menos:hover{
+    background-color: #4c35b3;
+    border: solid 2px;
+    border-color: #5642b0;
+}
